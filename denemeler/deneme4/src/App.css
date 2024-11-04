@@ -1,0 +1,19 @@
+.button {
+  margin: 5px 0;
+}
+
+.div.form {
+  border: 1px solid lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+.image-Item {
+  margin: 1px;
+}

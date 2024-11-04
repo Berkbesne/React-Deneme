@@ -1,0 +1,16 @@
+.button {
+  margin: 5px 0; /* Butonun yukarı ve aşağı boşluğu */
+}
+
+.div.form {
+  border: 1px solid lightblue; /* Formun etrafına sınır */
+  padding: 10px; /* İç kenar boşluğu */
+  border-radius: 5px; /* Köşeleri yuvarla */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Form içeriğini sola hizala */
+}
+
+h1 {
+  margin-bottom: 5px;
+}

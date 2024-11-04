@@ -1,0 +1,9 @@
+.SearchDiv {
+  border: 1px solid lightskyblue;
+  padding: 10px;
+  border-radius: 4px;
+}
+.SearchDiv form {
+  display: flex;
+  flex-direction: column;
+}
