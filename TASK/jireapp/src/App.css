@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-create {
+  width: 450px;
+}
+.task-from {
+  display: flex;
+  flex-direction: column;
+}
+.task-label {
+  margin: 10px 0px 20px 0px;
+}
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.task-button {
+  margin: 10px;
+  padding: 10px 20px; /* Butonu daha geniş ve rahat yapar */
+  border: none; /* Siyah kenarlığı kaldırır */
+  border-radius: 20px; /* Yuvarlak köşeler */
+  background-color: #4caf50; /* Yeşil bir arka plan */
+  color: white; /* Beyaz metin rengi */
+  font-size: 16px; /* Daha okunaklı metin */
+  cursor: pointer; /* İmleç, fareyle üzerine gelindiğinde "el" şekline dönüşür */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Yumuşak geçişler */
+}
+
+/* Hover efekti */
+.task-button:hover {
+  background-color: #45a049; /* Daha koyu yeşil */
+  transform: scale(1.05); /* Hafif büyüme efekti */
+}
+
+/* Aktifken (tıklandığında) */
+.task-button:active {
+  transform: scale(0.95); /* Hafif küçülme efekti */
+}
+.task-show {
+  margin: 5px;
+  border: 5px solid green;
+  border-radius: 30px;
+  width: 400px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Silme {
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  margin-right: 5px;
+}
+
+.Düzenleme {
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  margin-left: 5px;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-update {
+  width: 200px;
+}
+.update-button {
+  background-color: blueviolet;
+}
+.update-button:hover {
+  background-color: blue; /* Daha koyu yeşil */
+  transform: scale(1.05); /* Hafif büyüme efekti */
+}
+
+.update-button:active {
+  transform: scale(0.95); /* Hafif küçülme efekti */
+}
