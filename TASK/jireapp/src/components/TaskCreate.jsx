@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "../App.css";
-function TaskCreate({ onCreate, task, taskformUpdate, onUpdate }) {
+import { useContext, useEffect } from "react";
+import TaskContext from "../context/task.jsx";
+function TaskCreate({ task, taskformUpdate, onUpdate }) {
+  const { deleteTaskById, editTaskById, createTask } = useContext(TaskContext);
   const [title, setTitle] = useState(task ? task.title : "");
   const [taskdes, setTaskdes] = useState(task ? task.taskdes : "");
 
@@ -16,13 +19,14 @@ function TaskCreate({ onCreate, task, taskformUpdate, onUpdate }) {
     e.preventDefault();
     if (taskformUpdate) {
       onUpdate(task.id, title, taskdes);
+      //editTaskById(task.id, title, taskdes);
     } else {
       if (!title.trim()) {
         alert("Başlık boş olamaz!");
         return;
       }
-
-      onCreate(title, taskdes);
+      createTask(title, taskdes);
+      //onCreate(title, taskdes);
     }
     setTitle("");
     setTaskdes("");
