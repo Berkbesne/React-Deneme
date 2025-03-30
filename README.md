@@ -1,71 +1,56 @@
-# React Denemeleri
+# Site Listeleme Uygulaması
 
-Bu repository, React öğrenme sürecimde yaptığım çeşitli denemeleri ve projeleri içermektedir.
+Bu proje, React kullanılarak geliştirilmiş basit bir site listeleme uygulamasıdır. Kullanıcılar siteleri ekleyebilir, görüntüleyebilir ve silebilir.
 
-## Projeler
+## Özellikler
 
-### 1. Jira Benzeri Uygulama
-
-- Task yönetimi
-- Task oluşturma, düzenleme ve silme
-- Task durumu güncelleme
-- Context API kullanımı
-- JSON Server ile mock API
-
-### 2. State Yönetimi Örnekleri
-
-- useState hook kullanımı
-- useEffect hook kullanımı
-- Context API örnekleri
-
-### 3. API Çağrıları
-
-- Fetch API kullanımı
-- Axios ile HTTP istekleri
-- Async/await yapısı
+- Site ekleme (başlık ve URL)
+- Site listesi görüntüleme
+- Site silme
+- Animasyonlu form tasarımı
+- Responsive tasarım
+- Scroll ile hareket eden header ve form
 
 ## Teknolojiler
 
 - React
-- JavaScript
-- HTML
-- CSS
-- JSON Server
-- Context API
-- React Hooks
+- Axios (API istekleri için)
+- JSON Server (Backend API için)
+- CSS3 (Animasyonlar ve stil için)
 
 ## Kurulum
 
-1. Repository'yi klonlayın:
-
+1. Projeyi klonlayın:
 ```bash
 git clone https://github.com/Berkbesne/React-Deneme.git
+cd React-Deneme/Kurslarim/kurslar
 ```
 
-2. Proje dizinine gidin:
-
-```bash
-cd React-Deneme
-```
-
-3. Bağımlılıkları yükleyin:
-
+2. Bağımlılıkları yükleyin:
 ```bash
 npm install
 ```
 
-4. Uygulamayı başlatın:
+3. JSON Server'ı başlatın:
+```bash
+json-server --watch db.json --port 3001
+```
 
+4. Yeni bir terminal açın ve React uygulamasını başlatın:
 ```bash
 npm start
 ```
 
-## Katkıda Bulunma
+5. Tarayıcınızda http://localhost:3000 adresine gidin
 
-Bu projeye katkıda bulunmak için:
+## Kullanım
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+1. "Site Adı" ve "Site URL" alanlarını doldurun
+2. "Site Ekle" butonuna tıklayın
+3. Eklenen siteleri listede görüntüleyin
+4. "Siteye Git" butonu ile siteyi yeni sekmede açın
+5. "Sil" butonu ile siteyi listeden kaldırın
+
+## Geliştirici
+
+- Berk Beşne
