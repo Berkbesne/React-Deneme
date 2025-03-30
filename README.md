@@ -1,56 +1,72 @@
-# Site Listeleme Uygulaması
+# React Öğrenme Projelerim
 
-Bu proje, React kullanılarak geliştirilmiş basit bir site listeleme uygulamasıdır. Kullanıcılar siteleri ekleyebilir, görüntüleyebilir ve silebilir.
+Bu repo, React öğrenme sürecimde geliştirdiğim çeşitli projeleri içermektedir.
 
-## Özellikler
+## Projeler
 
-- Site ekleme (başlık ve URL)
-- Site listesi görüntüleme
-- Site silme
-- Animasyonlu form tasarımı
-- Responsive tasarım
-- Scroll ile hareket eden header ve form
+### 1. Site Listeleme Uygulaması (Kurslarim/kurslar)
+- Kullanıcıların site ekleyip, görüntüleyip, silebileceği interaktif bir web uygulaması
+- React, Axios ve JSON Server teknolojileri kullanılarak geliştirildi
+- CRUD operasyonları ve API entegrasyonu örnekleri
 
-## Teknolojiler
+### 2. API Çağrıları (ApiCall)
+- Harici API'lerle çalışma örnekleri
+- API entegrasyonu ve veri yönetimi pratikleri
 
-- React
-- Axios (API istekleri için)
-- JSON Server (Backend API için)
-- CSS3 (Animasyonlar ve stil için)
+### 3. State Yönetimi (State ve StateProject)
+- React'ta durum yönetimi konseptleri
+- Component state ve lifecycle metodlarının kullanımı
+- State management best practices
+
+### 4. Görev Yönetimi (TASK)
+- Task management fonksiyonaliteleri
+- React component yapısı örnekleri
+
+### 5. Kart Bileşenleri (Cards)
+- Kart tabanlı UI bileşenleri
+- Modern tasarım ve styling örnekleri
+
+### 6. React Denemeleri (Denemeler)
+- Çeşitli React pratikleri ve denemeler
+- Component yapısı ve React hooks kullanımı
+
+## Teknoloji Stack
+
+- React.js
+- Axios
+- JSON Server
+- Node.js
 
 ## Kurulum
 
 1. Projeyi klonlayın:
 ```bash
 git clone https://github.com/Berkbesne/React-Deneme.git
-cd React-Deneme/Kurslarim/kurslar
 ```
 
-2. Bağımlılıkları yükleyin:
+2. İlgili proje klasörüne gidin:
+```bash
+cd React-Deneme/[proje-klasörü]
+```
+
+3. Bağımlılıkları yükleyin:
 ```bash
 npm install
 ```
 
-3. JSON Server'ı başlatın:
-```bash
-json-server --watch db.json --port 3001
-```
-
-4. Yeni bir terminal açın ve React uygulamasını başlatın:
+4. Uygulamayı başlatın:
 ```bash
 npm start
 ```
 
-5. Tarayıcınızda http://localhost:3000 adresine gidin
+## Not
 
-## Kullanım
-
-1. "Site Adı" ve "Site URL" alanlarını doldurun
-2. "Site Ekle" butonuna tıklayın
-3. Eklenen siteleri listede görüntüleyin
-4. "Siteye Git" butonu ile siteyi yeni sekmede açın
-5. "Sil" butonu ile siteyi listeden kaldırın
+Her proje klasöründe detaylı açıklamalar ve kurulum yönergeleri bulunmaktadır. İlgilendiğiniz projenin klasörüne giderek daha fazla bilgi edinebilirsiniz.
 
 ## Geliştirici
 
 - Berk Beşne
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
