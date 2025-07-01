@@ -65,7 +65,7 @@ Her proje klasöründe detaylı açıklamalar ve kurulum yönergeleri bulunmakta
 
 ## Geliştirici
 
-- Berk Beşne
+- Berk Besne
 
 ## Lisans
 
